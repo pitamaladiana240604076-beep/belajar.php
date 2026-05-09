@@ -14,7 +14,7 @@ function luasPersegi(int $sisi){
 }
 
 // tugas rumus segi tiga
-function luasSegitiga(int $alas, int $tinggi){
+function luasSegitiga(int $alas, $tinggi){
     $luas = 0.5 * $alas * $tinggi;
     return $luas;
 }
